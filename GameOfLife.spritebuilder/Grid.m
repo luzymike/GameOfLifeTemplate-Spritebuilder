@@ -41,7 +41,7 @@ static const int GRID_COLUMNS = 10;
     _gridArray = [NSMutableArray array];
     
     // initialize Creatures
-    for (int i = 0; i < GRID_ROWS; i++) {
+    for (int i = 0; i < GRID_ROWS-1; i++) {
         // this is how you create two dimensional arrays in Objective-C. You put arrays into arrays.
         _gridArray[i] = [NSMutableArray array];
         x = 0;
@@ -61,7 +61,7 @@ static const int GRID_COLUMNS = 10;
             x+=_cellWidth;
         }
         
-        //y += _cellHeight;
+        y += _cellHeight;
     }
 }
 
