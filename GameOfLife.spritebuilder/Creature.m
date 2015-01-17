@@ -9,7 +9,7 @@
 #import "Creature.h"
 
 @implementation Creature
-
+/*
 -(instancetype)initCreature
 {
     self = [super initWithImageNamed:@"GameOfLifeAssets/Assets/bubble.png"];
@@ -25,5 +25,5 @@
     _isAlive = newState;
     self.visible = _isAlive;
 }
-
+*/
 @end
