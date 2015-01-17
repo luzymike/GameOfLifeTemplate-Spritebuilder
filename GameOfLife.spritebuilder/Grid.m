@@ -58,10 +58,10 @@ static const int GRID_COLUMNS = 10;
             // make creatures visible to test this method, remove this once we know we have filled the grid properly
             creature.isAlive = YES;
             
-            //x+=_cellWidth;
+            x+=_cellWidth;
         }
         
-        y += _cellHeight;
+        //y += _cellHeight;
     }
 }
 
