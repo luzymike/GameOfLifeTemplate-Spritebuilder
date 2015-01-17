@@ -46,7 +46,7 @@ static const int GRID_COLUMNS = 10;
         _gridArray[i] = [NSMutableArray array];
         x = 0;
         
-        for (int j = 0; j < GRID_COLUMNS; j++) {
+        for (int j = 1; j < GRID_COLUMNS; j++) {
             Creature *creature = [[Creature alloc] initCreature];
             creature.anchorPoint = ccp(-0.05, 0);
             creature.position = ccp(x, y);
